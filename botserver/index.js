@@ -33,8 +33,8 @@ app.listen(port, async () => {
 
 const bot = new Telegraf(BOT_TOKEN);
 
-const web_link = "YOUR PROJECT URL";
-const community_link = "https://t.me/xbb_community";
+const web_link = "https://ottertoken.netlify.app/";
+const community_link = "https://t.me/ottertoken_community";
 
 bot.start(async (ctx) => {
     const startPayload = ctx.startPayload;
